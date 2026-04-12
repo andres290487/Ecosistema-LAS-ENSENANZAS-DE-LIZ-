@@ -1,0 +1,14 @@
+============================================================
+ REPORTE TÉCNICO FORENSE - ENSDELIZ PREVENTIVA
+ FECHA: 2026-04-12 14:37:38
+ AUTOR: J Andres Resendez R.
+ ORCID: 0009-0007-3528-9413
+============================================================
+1. INTEGRIDAD DE DATOS (ARES-Kal):
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  firmas_encontradas.txt
+
+2. ANÁLISIS DE CORRELACIÓN (AFRODITA):
+   Eventos detectados: 0
+   Estado: Monitoreo activo
+============================================================
+FIRMA: J Andres Resendez R.
