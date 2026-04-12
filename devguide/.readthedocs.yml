@@ -1,0 +1,21 @@
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+# Project page: https://readthedocs.org/projects/cpython-devguide/
+
+version: 2
+
+sphinx:
+  builder: dirhtml
+  configuration: conf.py
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3"
+
+  commands:
+    - asdf plugin add uv
+    - asdf install uv latest
+    - asdf global uv latest
+    - make dirhtml BUILDDIR=_readthedocs
+    - mv _readthedocs/dirhtml _readthedocs/html

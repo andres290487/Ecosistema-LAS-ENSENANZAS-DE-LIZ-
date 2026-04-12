@@ -1,0 +1,102 @@
+/* Style overrides for the devguide */
+
+/* Make the site logo smaller */
+.sidebar-logo {
+    width: 111px;
+    height: 110px;
+}
+
+/* Release cycle chart */
+
+.release-cycle-chart {
+    width: 100%;
+}
+
+.release-cycle-chart .release-cycle-year-line {
+    stroke: var(--color-foreground-primary);
+    stroke-width: 0.8px;
+    opacity: 75%;
+}
+
+.release-cycle-chart .release-cycle-year-text {
+    fill: var(--color-foreground-primary);
+}
+
+.release-cycle-chart .release-cycle-today-line {
+    stroke: var(--color-brand-primary);
+    stroke-width: 1.6px;
+}
+
+.release-cycle-chart .release-cycle-row-shade {
+    fill: var(--color-background-item);
+    opacity: 50%;
+}
+
+.release-cycle-chart .release-cycle-version-label {
+    fill: var(--color-foreground-primary);
+}
+
+.release-cycle-chart .release-cycle-blob {
+    stroke-width: 1.6px;
+    /* default colours, overridden below for individual statuses */
+    fill: var(--color-background-primary);
+    stroke: var(--color-foreground-primary);
+}
+
+.release-cycle-chart .release-cycle-blob-label {
+    /* white looks good on both light & dark */
+    fill: white;
+}
+
+.release-cycle-chart .release-cycle-blob-label.release-cycle-blob-security,
+.release-cycle-chart .release-cycle-blob-label.release-cycle-blob-bugfix {
+    /* but use black to improve contrast for lighter backgrounds */
+    fill: black;
+}
+
+.release-cycle-chart .release-cycle-blob.release-cycle-blob-end-of-life {
+    fill: #DD2200;
+    stroke: #FF8888;
+}
+
+.release-cycle-chart .release-cycle-blob.release-cycle-blob-security {
+    fill: #FFDD44;
+    stroke: #FF8800;
+}
+
+.release-cycle-chart .release-cycle-blob.release-cycle-blob-bugfix {
+    fill: #00DD22;
+    stroke: #008844;
+}
+
+.release-cycle-chart .release-cycle-blob.release-cycle-blob-prerelease {
+    fill: teal;
+    stroke: darkgreen;
+}
+
+.release-cycle-chart .release-cycle-blob.release-cycle-blob-feature {
+    fill: #2222EE;
+    stroke: #008888;
+}
+
+.good pre {
+  border-left: 3px solid rgba(74, 182, 93, 1);
+}
+.bad pre {
+  border-left: 3px solid rgb(244, 76, 78);
+}
+
+.extlink-cpy-file,
+.extlink-gh-label {
+  border: 1px solid var(--color-background-border);
+  border-radius: .2em;
+  font-family: var(--font-stack--monospace);
+  font-size: var(--font-size--small--2);
+  padding: .1em .2em;
+}
+
+/* Table cells should always top-align */
+
+table.docutils td {
+  vertical-align: top;
+}
