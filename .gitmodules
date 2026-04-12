@@ -4,3 +4,6 @@
 [submodule "deps/wireguard-apple"]
 	path = deps/wireguard-apple
 	url = https://github.com/blokadaorg/wireguard-apple
+[submodule "modules/EAVI-LEDL"]
+	path = modules/EAVI-LEDL
+	url = https://github.com/andres290487/EAVI-LEDL.git
