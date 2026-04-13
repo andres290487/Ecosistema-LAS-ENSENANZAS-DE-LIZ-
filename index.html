@@ -1,1 +1,31 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerebro Operativo LEDL | Index</title>
+    <style>
+        body { background-color: #050505; color: #00FF41; font-family: 'Courier New', monospace; margin: 0; padding: 20px; }
+        .terminal-header { border: 1px solid #00FF41; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px #00FF41; }
+        .module-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+        .module-card { border: 1px solid #00FF41; padding: 10px; transition: 0.3s; cursor: pointer; }
+        .module-card:hover { background: #00FF41; color: #000; }
+        .status-dot { height: 10px; width: 10px; background-color: #00FF41; border-radius: 50%; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="terminal-header">
+        <h1>[+] CEREBRO OPERATIVO LEDL v167</h1>
+        <p>Propietario: J Andres Resendez R. | ORCID: 0009-0007-3528-9413</p>
+    </div>
+    <div class="module-grid" id="module-container">
+    </div>
+    <script>
+        const modules = ["EAVI-LEDL", "Androl4b", "estadocuentaweb", "base", "activos", "AIKO", "ARES-Kal"];
+        const container = document.getElementById('module-container');
+        modules.forEach(m => {
+            container.innerHTML += '<div class="module-card"><span class="status-dot"></span> ' + m + '</div>';
+        });
+    </script>
+</body>
+</html>
