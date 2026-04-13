@@ -2,5 +2,9 @@ services:
   - type: static
     name: ledl-web-repo-1
     publishPath: .
-    buildCommand: echo "Despliegue estático activo"
     staticPublishPath: .
+    # Forzar que el servidor use index.html incluso si hay conflictos
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
