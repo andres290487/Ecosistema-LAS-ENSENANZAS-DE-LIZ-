@@ -3,4 +3,7 @@ header { background: #111; padding: 10px; display: flex; justify-content: space-
 #desktop { padding: 40px; display: flex; gap: 30px; }
 .module { width: 120px; height: 120px; border: 1px solid #00ff41; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; text-align: center; }
 .module:hover { background: #00ff41; color: #000; box-shadow: 0 0 15px #00ff41; }
+.modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); }
+.modal-content { background: #111; margin: 15% auto; padding: 20px; border: 1px solid #00ff41; width: 400px; color: #fff; }
+.close { float: right; cursor: pointer; color: #00ff41; font-size: 20px; }
 footer { background: #111; border-top: 1px solid #00ff41; text-align: center; font-size: 10px; padding-top: 8px; }
