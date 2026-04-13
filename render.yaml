@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: ledl-web-repo-1
+    publishPath: .
+    buildCommand: echo "Despliegue estático activo"
+    staticPublishPath: .
