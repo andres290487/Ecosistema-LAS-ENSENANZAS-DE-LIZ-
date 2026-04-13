@@ -7,3 +7,69 @@
 [submodule "modules/EAVI-LEDL"]
 	path = modules/EAVI-LEDL
 	url = https://github.com/andres290487/EAVI-LEDL.git
+[submodule "modules/Androl4b"]
+	path = modules/Androl4b
+	url = git@github-290487:andres290487/Androl4b.git
+[submodule "modules/EAVI"]
+	path = modules/EAVI
+	url = git@github-290487:andres290487/EAVI.git
+[submodule "modules/EAVI-LEDL-ALL"]
+	path = modules/EAVI-LEDL-ALL
+	url = git@github-290487:andres290487/EAVI-LEDL-ALL.git
+[submodule "modules/EIPs"]
+	path = modules/EIPs
+	url = git@github-290487:andres290487/EIPs.git
+[submodule "modules/Ecosistema-LAS-ENSENANZAS-DE-LIZ-"]
+	path = modules/Ecosistema-LAS-ENSENANZAS-DE-LIZ-
+	url = git@github-290487:andres290487/Ecosistema-LAS-ENSENANZAS-DE-LIZ-.git
+[submodule "modules/Hugo"]
+	path = modules/Hugo
+	url = git@github-290487:andres290487/Hugo.git
+[submodule "modules/blokada"]
+	path = modules/blokada
+	url = git@github-290487:andres290487/blokada.git
+[submodule "modules/brew"]
+	path = modules/brew
+	url = git@github-290487:andres290487/brew.git
+[submodule "modules/changelog.com"]
+	path = modules/changelog.com
+	url = git@github-290487:andres290487/changelog.com.git
+[submodule "modules/choosealicense.com"]
+	path = modules/choosealicense.com
+	url = git@github-290487:andres290487/choosealicense.com.git
+[submodule "modules/devguide"]
+	path = modules/devguide
+	url = git@github-290487:andres290487/devguide.git
+[submodule "modules/docs"]
+	path = modules/docs
+	url = git@github-290487:andres290487/docs.git
+[submodule "modules/docs-1"]
+	path = modules/docs-1
+	url = git@github-290487:andres290487/docs-1.git
+[submodule "modules/dogecoin"]
+	path = modules/dogecoin
+	url = git@github-290487:andres290487/dogecoin.git
+[submodule "modules/estadocuentaweb"]
+	path = modules/estadocuentaweb
+	url = git@github-290487:andres290487/estadocuentaweb.git
+[submodule "modules/estadocuentaweb-"]
+	path = modules/estadocuentaweb-
+	url = git@github-290487:andres290487/estadocuentaweb-.git
+[submodule "modules/git-credential-manager"]
+	path = modules/git-credential-manager
+	url = git@github-290487:andres290487/git-credential-manager.git
+[submodule "modules/idmanagement.gov"]
+	path = modules/idmanagement.gov
+	url = git@github-290487:andres290487/idmanagement.gov.git
+[submodule "modules/langgraph"]
+	path = modules/langgraph
+	url = git@github-290487:andres290487/langgraph.git
+[submodule "modules/las-ensenanzas-de-liz.github.io"]
+	path = modules/las-ensenanzas-de-liz.github.io
+	url = git@github-290487:andres290487/las-ensenanzas-de-liz.github.io.git
+[submodule "modules/mis-archivos-publicos"]
+	path = modules/mis-archivos-publicos
+	url = git@github-290487:andres290487/mis-archivos-publicos.git
+[submodule "modules/netifaces"]
+	path = modules/netifaces
+	url = git@github-290487:andres290487/netifaces.git
