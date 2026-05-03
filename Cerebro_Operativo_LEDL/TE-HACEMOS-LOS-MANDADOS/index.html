@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>LEDL Mandados - Uber UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+    }
+
+    #map {
+      height: 60vh;
+      width: 100%;
+      background: #1e293b;
+    }
+
+    .panel {
+      padding: 15px;
+    }
+
+    button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      background: #22c55e;
+      border: none;
+      color: white;
+      font-size: 16px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2 style="text-align:center;">🚀 LEDL UBER MANDADOS</h2>
+
+<div id="map"></div>
+
+<div class="panel">
+  <h3>Crear Pedido</h3>
+
+  <input id="pickup" placeholder="Pickup lat,lng" />
+  <input id="dropoff" placeholder="Dropoff lat,lng" />
+
+  <button onclick="createOrder()">Crear Pedido</button>
+
+  <h3 id="status">Estado: esperando...</h3>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

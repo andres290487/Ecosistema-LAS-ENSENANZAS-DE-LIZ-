@@ -1,0 +1,12 @@
+2026-04-14 03:29:34.655 MDT [14991] LOG:  starting PostgreSQL 18.2 on aarch64-unknown-linux-android, compiled by Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349), 64-bit
+2026-04-14 03:29:34.657 MDT [14991] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2026-04-14 03:29:34.657 MDT [14991] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-14 03:29:34.657 MDT [14991] WARNING:  could not create listen socket for "localhost"
+2026-04-14 03:29:34.657 MDT [14991] FATAL:  could not create any TCP/IP sockets
+2026-04-14 03:29:34.666 MDT [14991] LOG:  database system is shut down
+2026-04-14 03:29:56.864 MDT [15021] LOG:  starting PostgreSQL 18.2 on aarch64-unknown-linux-android, compiled by Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349), 64-bit
+2026-04-14 03:29:56.866 MDT [15021] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2026-04-14 03:29:56.866 MDT [15021] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2026-04-14 03:29:56.866 MDT [15021] WARNING:  could not create listen socket for "localhost"
+2026-04-14 03:29:56.867 MDT [15021] FATAL:  could not create any TCP/IP sockets
+2026-04-14 03:29:56.874 MDT [15021] LOG:  database system is shut down

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Negocio</title>
+</head>
+<body style="background:black;color:#00ff88;text-align:center;">
+
+  <h1>🏪 PANEL NEGOCIO</h1>
+
+  <button onclick="crear()">Crear pedido</button>
+
+  <script>
+    async function crear() {
+      await fetch('/api/envios', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          cliente: "Cliente desde negocio",
+          destino: "Sucursal",
+          estado: "pendiente"
+        })
+      });
+
+      alert("Pedido creado");
+    }
+  </script>
+
+</body>
+</html>

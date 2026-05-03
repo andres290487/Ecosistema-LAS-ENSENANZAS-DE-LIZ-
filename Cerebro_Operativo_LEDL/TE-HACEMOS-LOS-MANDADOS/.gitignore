@@ -1,0 +1,25 @@
+node_modules/
+.env
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+data/
+
+# LEDL AUTO CLEAN
+data/
+*.secret
+*.key
+*.env.local
+
+# LEDL AUTO CLEAN
+data/
+*.secret
+*.key
+*.env.local
+node_modules/
+.env
+logs/
+node_modules/
+.env
+logs/

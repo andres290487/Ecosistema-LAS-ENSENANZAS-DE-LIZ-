@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repartidor</title>
+</head>
+<body style="background:black;color:#00f7ff;text-align:center;">
+
+  <h1>🛵 PANEL REPARTIDOR</h1>
+
+  <button id="btn">Ver envíos</button>
+
+  <ul id="lista"></ul>
+
+  <script>
+    console.log("🛵 Repartidor cargado");
+
+    document.getElementById("btn").addEventListener("click", async () => {
+      console.log("CLICK repartidor");
+
+      try {
+        const res = await fetch('/api/envios');
+        const data = await res.json();
+
+        console.log("Datos:", data);
+
+        const lista = document.getElementById("lista");
+        lista.innerHTML = "";
+
+        if (data.length === 0) {
+          lista.innerHTML = "<li>Sin envíos</li>";
+          return;
+        }
+
+        data.forEach(e => {
+          const li = document.createElement("li");
+          li.textContent = `📦 ${e.cliente} → ${e.destino}`;
+          lista.appendChild(li);
+        });
+
+      } catch (err) {
+        console.error("Error:", err);
+        alert("Error cargando envíos");
+      }
+    });
+  </script>
+
+</body>
+</html>
