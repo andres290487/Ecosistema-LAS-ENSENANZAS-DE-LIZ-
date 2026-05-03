@@ -46,3 +46,5 @@ For information on how to build Blokada, see [BUILDING.md](BUILDING.md). To get 
 # Contributing
 
 If you are interested to join us and do stuff used by hundreds of thousands of users every day, check [CONTRIBUTING.md](CONTRIBUTING.md).
+## 🌐 Cumplimiento de Estándares CASA/CAIP
+Habilitado: 2026-05-03 | Activos: 335M + Recuperación
