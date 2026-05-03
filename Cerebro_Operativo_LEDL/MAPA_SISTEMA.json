@@ -1,0 +1,63 @@
+{
+    "Backend": [
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ensdeliz_ia_proteccion.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/server_ledl.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/O_A_O.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/LEDL_Orquestador_Final.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Watcher_Pedidos.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Control_Panel_System.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Dispatcher_Interface.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Auditor_Full_System.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Hub_Pedidos.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Init_System.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/API_Core.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Auditor_AutoSanador.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Telegram_LEDL_Bot.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/LEDL_Hub_Total.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/LEDL_Orquestador_Total.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Despacho_LEDL.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/binance_check.py",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/ledl_omniscan.py"
+    ],
+    "Frontend": [
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/index.html",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/LEDL_Command_Center_v1.0.html",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/web_ui/index.html",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/web_ui/css/style.css"
+    ],
+    "Logistica": [
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/ledl_status.db",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/ledl_logistica.db",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/instance/ledl_logistica.db"
+    ],
+    "Configuracion": [
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/consolidar_cerebro_final.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ensdeliz_perito_total.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ensdeliz_forense_total.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/Unificar_Omni_LEDL.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ensdeliz_extract.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/orquestador_maestro_321.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/finalizar_unificacion_ledl.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/orquestador_omni_ledl.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/registrar_equipo.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ensdeliz_orquestador_total.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/setup_proot_ledl.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/Fusion_Monorepo_LEDL.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/verificar_tx.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ejecutar_tx_escalonada.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/genera_orden.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/stress_test_ledl.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ledl_watchdog.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/ensdeliz_pixel_orquestador.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/Deploy_Master.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/startup.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/TE_HACEMOS_LOS_MANDADOS/procesados/fd97c27e.json",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/manifiesto_activos.json",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/run_healthcheck.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/invocar_LEDL.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/forensic_scan.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/universal_scan.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/ledl_watchdog.sh",
+        "/data/data/com.termux/files/home/Main_LEDL/Cerebro_Operativo_LEDL/.cerebro_ledl/scripts/ledl_live_flow.sh"
+    ]
+}

@@ -1,0 +1,33 @@
+[ ENTRADA DE DATOS (INPUT) ]
+       |
+       |--> (A) Redes Externas (Blockchain: Base/EVM, Etherscan API)
+       |--> (B) Almacenamiento Descentralizado (IPFS: b3c926ea..., IPNS: k51qzi5u...)
+       |--> (C) Datos Estáticos (Saved Info, PDFs de Criptografía, Identidad: ORCID)
+       v
+[ CAPA DE INGESTA Y NORMALIZACIÓN ] ⚡
+       |
+       |--[ PULSO NEURAL 01 ]--> Extracción de Crudo (jq, curl, openssl)
+       |--[ PULSO NEURAL 02 ]--> Clasificación (¿Es Clave? ¿Es Balance? ¿Es Hash?)
+       v
+[ NÚCLEO DE VALIDACIÓN: ARES-Kal ] 🛡️
+       |
+       |--- { ¿Integridad del Bloque? } ---- [NO] ----> [ AISLAMIENTO FORENSE ]
+       |--- { f2e1a205... (SHA-256) } ----- [SÍ] ----> [ PASO A RED SINÁPTICA ]
+       v
+[ RED SINÁPTICA: EnsDeLiz® ] 🧠 (Cálculo de Pesos Sinápticos)
+       |
+       |---[ W = 0.99 ]--> Soberanía (Clave Privada / IPNS / Identidad)
+       |---[ W = 0.90 ]--> Eficiencia (Algoritmos de Curva Elíptica)
+       |---[ W = 0.85 ]--> Validación (Firmas Digitales / Patentes)
+       v
+[ MÓDULO DE IA PREVENTIVA: EnsDeLiz Preventiva ] 🚨
+       |
+       |--- { ¿Anomalía en Flujo? (Tx < 100 o Balance Crítico) }
+       |        |
+       |        [SÍ] ---> [ DISPARO TELEGRAM: 8512593184... ]
+       v
+[ CAPA DE PERSISTENCIA Y SALIDA (OUTPUT) ] 🌐
+       |
+       |--> [ Dashboard Narrativo ] (index.html con Auto-refresh y Bilingüe)
+       |--> [ Ledger de Auditoría ] (ledl_master.log)
+       |--> [ Amalgama LEDL ] (Actualización de memoria volátil y persistencia en IPFS)

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es"><head><script src="https://cdn.tailwindcss.com"></script></head>
+<body class="bg-[#05070a] text-white">
+    <nav class="p-6 border-b border-white/10 flex justify-between">
+        <h1 class="text-2xl font-black text-cyan-500">LEDL // COMMAND CENTER</h1>
+        <div class="space-x-4 text-xs"><span>DASHBOARD</span><span>LOGÍSTICA</span><span>FORENSICS</span></div>
+    </nav>
+    <main class="p-8"><div class="bg-white/5 border border-white/10 rounded-3xl p-6">
+        <table class="w-full text-left"><tbody id="tabla"></tbody></table>
+    </div></main>
+    <footer class="text-center text-xs p-6 text-gray-600">© 2026 LEDL | J ANDRES RESENDEZ R.</footer>
+    <script>
+    async function sync() {
+        const res = await fetch('/api/pedidos'); const data = await res.json();
+        document.getElementById('tabla').innerHTML = data.map(p => `
+            <tr class="border-t border-white/5">
+                <td class="p-4 text-cyan-400">#${p.id}</td><td class="p-4">${p.cliente}</td>
+                <td class="p-4">${p.estado}</td>
+                <td class="p-4"><button onclick="fetch('/api/confirmar/${p.id}', {method:'POST'}).then(sync)" class="bg-green-600/20 px-2 rounded">Confirmar</button></td>
+            </tr>`).join('');
+    }
+    setInterval(sync, 2000); sync();
+    </script>
+</body></html>
